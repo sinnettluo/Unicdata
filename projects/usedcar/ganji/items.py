@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+
+# Define here the models for your scraped items
+#
+# See documentation in:
+# http://doc.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class GanjiItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    url = scrapy.Field()
+    website = scrapy.Field()
+    grabtime = scrapy.Field()
+    pagetime = scrapy.Field()
+    status = scrapy.Field()
+    datasave = scrapy.Field()
+
+class ChedaoshanqianItem(scrapy.Item):
+    grabtime=scrapy.Field()
+    website = scrapy.Field()
+    status=scrapy.Field()
+    url = scrapy.Field()
+    cityid=scrapy.Field()
+    cityname=scrapy.Field()
+    brandid = scrapy.Field()
+    brandname = scrapy.Field()
+    itemid=scrapy.Field()
+    agencyid=scrapy.Field()
+    agencyname=scrapy.Field()
+    province=scrapy.Field()
+    seriesid = scrapy.Field()
+    seriesname = scrapy.Field()
+    makeyear = scrapy.Field()
+    registerdate = scrapy.Field()
+    mileage = scrapy.Field()
+    price1 = scrapy.Field()
+    guideprice = scrapy.Field()
+    guidepricetax = scrapy.Field()
+    changetimes = scrapy.Field()
+    yearchecktime = scrapy.Field()
+    Insurance1 = scrapy.Field()
+    Insurance2 = scrapy.Field()
+    img_url = scrapy.Field()
+    agencycarnum = scrapy.Field()
+    agencyrate = scrapy.Field()
+    agencyattionnum = scrapy.Field()
+    agencycity= scrapy.Field()
+    agencyphone = scrapy.Field()
+    emission = scrapy.Field()
+    carsource = scrapy.Field()
+    geartype = scrapy.Field()
+    output = scrapy.Field()
+    color = scrapy.Field()
+    body = scrapy.Field()
+    shortdesc = scrapy.Field()
+    dealtype = scrapy.Field()
+    telphone = scrapy.Field()
+    desc = scrapy.Field()
+
+
+class Ic5uItem(scrapy.Item):
+    grabtime=scrapy.Field()
+    website = scrapy.Field()
+    status=scrapy.Field()
+    url = scrapy.Field()
+    city=scrapy.Field()
+    title=scrapy.Field()
+    price1=scrapy.Field()
+    guideprice = scrapy.Field()
+    attention= scrapy.Field()
+    registerdate=scrapy.Field()
+    mileage=scrapy.Field()
+    geartype=scrapy.Field()
+    emission=scrapy.Field()
+    dealtype= scrapy.Field()
+    dealplace = scrapy.Field()
+    telephone = scrapy.Field()
+    yearchecktime = scrapy.Field()
+    Insurance1 = scrapy.Field()
+    output= scrapy.Field()
+    color = scrapy.Field()
+    rate= scrapy.Field()
+    ratelist1 = scrapy.Field()
+    ratelist2= scrapy.Field()
+    ratelist3= scrapy.Field()
+    ratelist4= scrapy.Field()
+    ratelist5= scrapy.Field()
+    checkdesc=scrapy.Field()
+    desc= scrapy.Field()
+    img = scrapy.Field()

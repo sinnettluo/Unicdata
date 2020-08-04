@@ -1,0 +1,6 @@
+[1025/112918.709:ERROR:process_reader_win.cc(123)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。  (0xc0000022)
+[1025/112918.710:ERROR:exception_snapshot_win.cc(87)] thread ID 16360 not found in process
+[1025/112918.710:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[1121/203011.607:ERROR:process_info.cc(380)] UncheckedAllocate
+[0206/011008.075:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Admin\AppData\Local\Temp\scoped_dir8740_8237\Crashpad\reports\8eacca0c-6aef-4fd4-92d6-7e75a5edacb5.dmp: 系统找不到指定的路径。 (0x3)
+[0206/011008.366:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
