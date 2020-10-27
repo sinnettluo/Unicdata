@@ -18,7 +18,7 @@ constantly==15.1.0
 crawlab==0.1.0a8
 crawlab-sdk==0.1.6
 crochet==1.12.0
-cryptography==2.4.2
+cryptography==3.2
 cssselect==1.1.0
 decorator==4.4.2
 defusedxml==0.6.0
