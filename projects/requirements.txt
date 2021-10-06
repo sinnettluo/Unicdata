@@ -121,7 +121,7 @@ ruamel.yaml.clib==0.2.0
 Scrapy==1.8.0
 scrapy-redis==0.6.8
 scrapy-redis-bloomfilter==0.7.0
-scrapy-splash==0.7.2
+scrapy-splash==0.8.0
 scrapydo==0.2.2
 selenium==3.141.0
 Send2Trash==1.5.0
