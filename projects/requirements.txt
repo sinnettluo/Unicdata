@@ -74,7 +74,7 @@ notebook==6.0.3
 numpy==1.17.1
 pandas==0.25.1
 pandocfilters==1.4.2
-paramiko==2.7.1
+paramiko==2.10.1
 parsel==1.5.2
 parso==0.6.2
 passlib==1.7.2
